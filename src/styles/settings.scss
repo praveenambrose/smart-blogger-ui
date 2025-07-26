@@ -1,0 +1,8 @@
+$body-font-family: "Roboto", sans-serif;
+$font-size-root: 14px !default;
+$data-table-regular-header-height: 20px;
+$tabs-bar-height: 39px;
+@forward 'vuetify/settings' with (
+  $body-font-family: $body-font-family,
+  $tabs-height: $tabs-bar-height
+);
